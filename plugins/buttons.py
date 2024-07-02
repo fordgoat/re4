@@ -14,8 +14,8 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and FORCE_SUB_CHANNEL2 and FORCE_SUB_CHANNEL3:
         buttons = [
             [
-                InlineKeyboardButton(text="Group 1", url=client.invitelink2),
-                InlineKeyboardButton(text="Group 2", url=client.invitelink3),
+                InlineKeyboardButton(text="JOIN 1", url=client.invitelink2),
+                InlineKeyboardButton(text="JOIN 2", url=client.invitelink3),
             ],
             [
                 InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
@@ -40,8 +40,8 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
             ],
             [
-                InlineKeyboardButton(text="Group 1", url=client.invitelink),
-                InlineKeyboardButton(text="Group 2", url=client.invitelink2),
+                InlineKeyboardButton(text="JOIN 1", url=client.invitelink),
+                InlineKeyboardButton(text="JOIN 2", url=client.invitelink2),
             ],
             [InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")],
         ]
@@ -52,11 +52,11 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
             ],
             [
-                InlineKeyboardButton(text="Group 1", url=client.invitelink),
-                InlineKeyboardButton(text="Group 2", url=client.invitelink2),
+                InlineKeyboardButton(text="JOIN 1", url=client.invitelink),
+                InlineKeyboardButton(text="JOIN 2", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="Group 3", url=client.invitelink3),
+                InlineKeyboardButton(text="JOIN 3", url=client.invitelink3),
             ],
             [
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
@@ -69,12 +69,12 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
             ],
             [
-                InlineKeyboardButton(text="Group 1", url=client.invitelink),
-                InlineKeyboardButton(text="Group 2", url=client.invitelink2),
+                InlineKeyboardButton(text="JOIN 1", url=client.invitelink),
+                InlineKeyboardButton(text="JOIN 2", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="Group 3", url=client.invitelink3),
-                InlineKeyboardButton(text="Group 4", url=client.invitelink4),
+                InlineKeyboardButton(text="JOIN 3", url=client.invitelink3),
+                InlineKeyboardButton(text="JOIN 4", url=client.invitelink4),
             ],
             [
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
