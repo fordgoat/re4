@@ -21,14 +21,14 @@ FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001710331413"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002087078793"))
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1001634845793"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
-START_MSG = os.environ.get("START_MESSAGE", "Hallo {first}\n\nsaya bisa menyimpan file dan membagikan dengan mudah.")
+START_MSG = os.environ.get("START_MESSAGE", "Hallo {mention}\n\nsaya bisa menyimpan file dan membagikan dengan mudah.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "1707380693").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hallo {first}\n\n<b>anda harus bergabung ke Channel/Group saya dulu untuk bisa melihat konten ini\n\nJoin Channel/group</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hallo {mention}\n\n<b>anda harus bergabung melalui tombol dibawah ini terlebih dahulu\n\nVVIP BOKEP @VvipSchool</b>")
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
